@@ -1,0 +1,129 @@
+/*
+****************************************
+-------  Google fonts
+****************************************
+*/
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'),
+       local('Lato-Regular'),
+       url(http://fonts.gstatic.com/s/lato/v10/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'),
+       local('Lato-Bold'),
+       url(http://fonts.gstatic.com/s/lato/v10/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'),
+       local('Lato-Italic'),
+       url(http://fonts.gstatic.com/s/lato/v10/oUan5VrEkpzIazlUe5ieaA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'),
+       local('OpenSans'),
+       url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'),
+       local('OpenSans-Bold'),
+       url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'),
+       local('OpenSans-Italic'),
+       url(http://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Voltaire';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Voltaire'),
+       url(http://fonts.gstatic.com/s/voltaire/v6/ag0Q3_6hjQFerbCN2Eewq_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+body * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    color: #222;
+}
+
+h1, h2, h3 {
+    font-family: 'Voltaire', serif;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: #eee;
+    padding: 30px 100px;
+}
+
+#header-content {
+    margin: 0 auto;
+}
+
+#header-content img {
+    width: 300px;
+    float: left;
+}
+
+#header-content nav {
+    float: right;
+}
+
+#header-content nav ul,
+#header-content nav li {
+    float: left;
+}
+
+#header-content nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 8px 0 0;
+}
+
+#header-content nav li {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+#header-content nav a {
+    font-family: 'Voltaire', serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #666;
+}
+
+#header-content nav li:hover {
+    border: 1px solid #777;
+}
